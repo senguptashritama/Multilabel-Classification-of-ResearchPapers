@@ -48,4 +48,5 @@ Evaluate the trained model on a separate validation set using appropriate evalua
 ## Conclusion
 
 **KNN with classifier chains was most promising as it trained fast and gave the highest overall performance.** 
+
 The developed text classification model demonstrates promising performance in accurately categorizing research papers into relevant terms or labels based on their titles and summaries. By effectively organizing and classifying research papers, the model enhances the accessibility and retrieval of information, facilitating knowledge discovery and research exploration in the domain. Further enhancements and refinements can be explored to improve the model's robustness and applicability in real-world scenarios.
