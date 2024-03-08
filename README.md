@@ -31,13 +31,13 @@ The dataset consists of research papers along with their titles, summaries, and 
  
 ### Model Selection
 
-**SVM-Label Powerset:** Utilized Support Vector Machine (SVM) with the Label Powerset approach to handle multilabel classification. This approach transforms the multilabel problem into multiple binary classification problems, where each combination of labels is treated as a separate class.
+1. **SVM-Label Powerset:** Utilized Support Vector Machine (SVM) with the Label Powerset approach to handle multilabel classification. This approach transforms the multilabel problem into multiple binary classification problems, where each combination of labels is treated as a separate class.
 
-:**Random Forest-MultiOutputClassifier::** Employed Random Forest with the MultiOutputClassifier wrapper to handle multilabel classification. Random Forest builds multiple decision trees and predicts multiple outputs (labels) simultaneously.
+2. **Random Forest-MultiOutputClassifier::** Employed Random Forest with the MultiOutputClassifier wrapper to handle multilabel classification. Random Forest builds multiple decision trees and predicts multiple outputs (labels) simultaneously.
 
-**KNN-Classifier Chains:** Applied k-Nearest Neighbors (KNN) with the Classifier Chains approach for multilabel classification. In this approach, multiple binary classifiers are trained in a chain, where each classifier predicts one label and uses the predictions of previous classifiers as additional features.
+3. **KNN-Classifier Chains:** Applied k-Nearest Neighbors (KNN) with the Classifier Chains approach for multilabel classification. In this approach, multiple binary classifiers are trained in a chain, where each classifier predicts one label and uses the predictions of previous classifiers as additional features.
 
-**LSTM and BiLSTM:** Implemented Long Short-Term Memory (LSTM) and Bidirectional LSTM (BiLSTM) neural network architectures for sequence modeling and text classification. These models are well-suited for processing sequential data like text and can capture long-range dependencies effectively.
+4. **LSTM and BiLSTM:** Implemented Long Short-Term Memory (LSTM) and Bidirectional LSTM (BiLSTM) neural network architectures for sequence modeling and text classification. These models are well-suited for processing sequential data like text and can capture long-range dependencies effectively.
 
 ### Training
 Trained the model using the preprocessed data. Utilized techniques such as cross-validation and hyperparameter tuning to optimize model performance.
